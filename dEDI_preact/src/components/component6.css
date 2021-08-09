@@ -1,0 +1,171 @@
+.container {
+  top: 2%;
+  flex: 0 0 auto;
+  left: 11%;
+  right: auto;
+  width: 10%;
+  bottom: auto;
+  height: 95%;
+  display: flex;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.icon {
+  top: 3%;
+  fill: #b3b0b0;
+  left: 35%;
+  right: auto;
+  width: 30%;
+  bottom: auto;
+  position: absolute;
+}
+.icon02 {
+  top: 501px;
+  fill: #b3b0b0;
+  left: auto;
+  right: -296px;
+  width: 19%;
+  bottom: auto;
+  position: absolute;
+}
+.icon04 {
+  top: 554px;
+  fill: #b3b0b0;
+  left: auto;
+  right: -286px;
+  width: 16%;
+  bottom: auto;
+  position: absolute;
+}
+.icon06 {
+  top: auto;
+  fill: #b3b0b0;
+  left: auto;
+  right: -294px;
+  width: 19%;
+  bottom: 323px;
+  position: absolute;
+}
+.icon08 {
+  top: auto;
+  fill: #b3b0b0;
+  left: auto;
+  right: -287px;
+  width: 18%;
+  bottom: 286px;
+  position: absolute;
+}
+.icon10 {
+  top: auto;
+  fill: #b3b0b0;
+  left: auto;
+  right: -283px;
+  width: 18%;
+  bottom: 246px;
+  position: absolute;
+}
+.container1 {
+  top: 10%;
+  flex: 0 0 auto;
+  left: auto;
+  right: 0px;
+  width: 100%;
+  bottom: auto;
+  height: 75%;
+  display: flex;
+  position: absolute;
+  align-self: stretch;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media(max-width: 991px) {
+  .icon02 {
+    fill: #b3b0b0;
+    width: 5%;
+    height: auto;
+  }
+  .icon04 {
+    fill: #b3b0b0;
+    width: 4%;
+    height: auto;
+  }
+  .icon06 {
+    fill: #b3b0b0;
+    width: 5%;
+    height: auto;
+  }
+  .icon08 {
+    fill: #b3b0b0;
+    width: 5%;
+    height: auto;
+  }
+  .icon10 {
+    fill: #b3b0b0;
+    width: 5%;
+    height: auto;
+  }
+}
+@media(max-width: 767px) {
+  .icon02 {
+    fill: #b3b0b0;
+    width: 7%;
+    height: auto;
+  }
+  .icon04 {
+    fill: #b3b0b0;
+    width: 5%;
+    height: auto;
+  }
+  .icon06 {
+    fill: #b3b0b0;
+    width: 7%;
+    height: auto;
+  }
+  .icon08 {
+    fill: #b3b0b0;
+    width: 7%;
+    height: auto;
+  }
+  .icon10 {
+    fill: #b3b0b0;
+    width: 6%;
+    height: auto;
+  }
+}
+@media(max-width: 479px) {
+  .icon02 {
+    fill: #b3b0b0;
+    width: 8%;
+    height: auto;
+  }
+  .icon04 {
+    fill: #b3b0b0;
+    width: 6%;
+    height: auto;
+  }
+  .icon06 {
+    fill: #b3b0b0;
+    width: 8%;
+    height: auto;
+  }
+  .icon08 {
+    fill: #b3b0b0;
+    width: 8%;
+    height: auto;
+  }
+  .icon10 {
+    fill: #b3b0b0;
+    width: 7%;
+    height: auto;
+  }
+}

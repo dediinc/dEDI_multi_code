@@ -1,0 +1,15 @@
+:host { 
+  display: contents; 
+}
+.container {
+  display: flex;
+  position: relative;
+}
+.loginbutton {
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-tripleunit);
+  margin-left: 0px;
+  border-color: rgba(18, 18, 18, 0.32);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+}

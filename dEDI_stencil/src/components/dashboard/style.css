@@ -1,0 +1,1345 @@
+:host { 
+  display: contents; 
+}
+.container {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  z-index: 100;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container1 {
+  top: auto;
+  left: auto;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  margin-top: auto;
+  align-items: flex-start;
+  margin-left: auto;
+  padding-top: 2%;
+  margin-right: auto;
+  padding-left: 100px;
+  margin-bottom: auto;
+  padding-right: 100px;
+  flex-direction: row;
+  padding-bottom: 2%;
+  background-color: #e0e0e0;
+}
+.body {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+.footer {
+  top: auto;
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  bottom: 1%;
+  height: 5%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.footerlogo {
+  top: auto;
+  left: 1%;
+  right: auto;
+  bottom: 0px;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.copyright {
+  top: auto;
+  right: 1%;
+  bottom: 30%;
+  position: absolute;
+}
+.header {
+  top: auto;
+  flex: 0 0 auto;
+  left: auto;
+  right: auto;
+  width: 100%;
+  bottom: auto;
+  height: 10%;
+  display: flex;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  flex-direction: row;
+  justify-content: center;
+}
+.logo {
+  height: 100%;
+  object-fit: cover;
+}
+.sidebar {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  right: auto;
+  width: 10%;
+  bottom: auto;
+  height: 94%;
+  display: flex;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  flex-direction: column;
+}
+.menu {
+  top: 11%;
+  flex: 0 0 auto;
+  left: auto;
+  right: 0px;
+  width: 100%;
+  bottom: auto;
+  height: 50%;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.navlink {
+  display: contents;
+}
+.dashdashlink {
+  flex: 0 0 auto;
+  width: 99%;
+  height: 12%;
+  display: flex;
+  align-self: center;
+  margin-top: 1%;
+  flex-direction: column;
+  text-decoration: none;
+}
+.dashdashicon {
+  fill: #b3b0b0;
+  width: 35%;
+  align-self: center;
+}
+.dashdashtitle {
+  color: #b3b0b0;
+  align-self: center;
+}
+.dashworkinglink {
+  flex: 0 0 auto;
+  width: 99%;
+  height: 12%;
+  display: flex;
+  align-self: flex-start;
+  margin-top: 1%;
+  flex-direction: column;
+}
+.dashworkingicon {
+  fill: #b3b0b0;
+  width: 35%;
+  align-self: center;
+}
+.dashworkingtitle {
+  color: #b3b0b0;
+  align-self: center;
+}
+.navlink1 {
+  display: contents;
+}
+.dashformslink {
+  flex: 0 0 auto;
+  width: 99%;
+  height: 12%;
+  display: flex;
+  align-self: flex-start;
+  margin-top: 1%;
+  flex-direction: column;
+  text-decoration: none;
+}
+.dashformsicon {
+  fill: #b3b0b0;
+  width: 35%;
+  align-self: center;
+}
+.dashformstitle {
+  color: #b3b0b0;
+  align-self: center;
+}
+.navlink2 {
+  display: contents;
+}
+.dashmsgslink {
+  flex: 0 0 auto;
+  width: 99%;
+  height: 12%;
+  display: flex;
+  align-self: flex-start;
+  margin-top: 1%;
+  flex-direction: column;
+  text-decoration: none;
+}
+.dashmsgsicon {
+  fill: #b3b0b0;
+  width: 35%;
+  align-self: center;
+}
+.dashmsgstitle {
+  color: #b3b0b0;
+  align-self: center;
+}
+.dashpartnerslink {
+  flex: 0 0 auto;
+  width: 99%;
+  height: 12%;
+  display: flex;
+  align-self: flex-start;
+  margin-top: 1%;
+  flex-direction: column;
+}
+.dashpartnersicon {
+  fill: #b3b0b0;
+  width: 35%;
+  align-self: center;
+}
+.dashpartnerstitle {
+  color: #b3b0b0;
+  align-self: center;
+}
+.dashtrackinglink {
+  flex: 0 0 auto;
+  width: 99%;
+  height: 12%;
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+}
+.dashtrackingicon {
+  fill: #b3b0b0;
+  width: 35%;
+  align-self: center;
+}
+.dashtrackingtitle {
+  color: #b3b0b0;
+  align-self: center;
+}
+.dashinventorylink {
+  flex: 0 0 auto;
+  width: 99%;
+  height: 12%;
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+}
+.dashinventoryicon {
+  fill: #b3b0b0;
+  width: 35%;
+  align-self: center;
+}
+.dashinventorytitle {
+  color: #b3b0b0;
+  align-self: center;
+}
+.dashfinanciallink {
+  flex: 0 0 auto;
+  width: 99%;
+  height: 12%;
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+}
+.dashfinancialicon {
+  fill: #b3b0b0;
+  width: 35%;
+  align-self: center;
+}
+.dashfinancialtitle {
+  color: #b3b0b0;
+  align-self: center;
+}
+.usericon {
+  top: 2%;
+  fill: #b3b0b0;
+  width: 30%;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+}
+.main {
+  top: 10%;
+  flex: 0 0 auto;
+  left: 13%;
+  right: auto;
+  width: 80%;
+  bottom: auto;
+  height: 84%;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.leftcolumn {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 99%;
+  display: flex;
+  align-self: flex-end;
+  padding-top: 7%;
+  flex-direction: column;
+}
+.dasha {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 25%;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.dashb {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 25%;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.dashc {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 25%;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.dashd {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 25%;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  flex-direction: row;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.rightcolumn {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 99%;
+  display: flex;
+  align-self: flex-end;
+  padding-top: 7%;
+  flex-direction: column;
+}
+.dashe {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 25%;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  flex-direction: column;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.dashf {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 25%;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  flex-direction: column;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.dashg {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 25%;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  flex-direction: column;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.dashh {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 25%;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  flex-direction: column;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}
+.text6 {
+  top: 2%;
+  left: 2%;
+  color: #b3b0b0;
+  bottom: auto;
+  position: absolute;
+}
+@media(max-width: 991px) {
+  .container1 {
+    top: 0px;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    align-self: center;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    padding-top: 2%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 2%;
+    justify-content: center;
+    background-color: #e0e0e0;
+  }
+  .body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #ffffff;
+  }
+  .footer {
+    top: auto;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    bottom: 1%;
+    height: 5%;
+    position: absolute;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+  }
+  .footerlogo {
+    top: auto;
+    left: 1%;
+    right: auto;
+    width: auto;
+    bottom: 0px;
+    height: 100%;
+    position: absolute;
+  }
+  .copyright {
+    top: auto;
+    right: 1%;
+    bottom: 30%;
+    position: absolute;
+  }
+  .header {
+    top: autp;
+    left: auto;
+    right: auto;
+    width: 100%;
+    bottom: auto;
+    height: 10%;
+    position: absolute;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+  }
+  .logo {
+    top: auto;
+    left: auto;
+    right: 30%;
+    width: auto;
+    bottom: 0px;
+    height: 100%;
+    position: absolute;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+  .sidebar {
+    top: 0px;
+    left: 0px;
+    right: auto;
+    width: 10%;
+    bottom: auto;
+    height: 94%;
+    position: absolute;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+  }
+  .menu {
+    top: 11%;
+    left: auto;
+    right: 0px;
+    width: 100%;
+    bottom: auto;
+    height: 50%;
+    position: absolute;
+    align-items: flex-start;
+  }
+  .dashdashlink {
+    width: 99%;
+    height: 12%;
+    align-self: flex-start;
+    margin-top: 1%;
+  }
+  .dashdashicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    position: static;
+    align-self: center;
+  }
+  .dashdashtitle {
+    color: #b3b0b0;
+    align-self: center;
+  }
+  .dashworkinglink {
+    width: 99%;
+    height: 12%;
+  }
+  .dashworkingicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    align-self: center;
+    margin-top: 1%;
+  }
+  .dashworkingtitle {
+    color: #b3b0b0;
+    align-self: center;
+  }
+  .dashformslink {
+    width: 99%;
+    height: 12%;
+  }
+  .dashformsicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    align-self: center;
+    margin-top: 1%;
+  }
+  .dashformstitle {
+    color: #b3b0b0;
+    align-self: center;
+  }
+  .dashmsgslink {
+    width: 99%;
+    height: 12%;
+  }
+  .dashmsgsicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    align-self: center;
+    margin-top: 1%;
+  }
+  .dashmsgstitle {
+    color: #b3b0b0;
+    align-self: center;
+  }
+  .dashpartnerslink {
+    width: 99%;
+    height: 12%;
+  }
+  .dashpartnersicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    align-self: center;
+    margin-top: 1%;
+  }
+  .dashpartnerstitle {
+    color: #b3b0b0;
+    align-self: center;
+  }
+  .dashtrackinglink {
+    width: 99%;
+    height: 12%;
+  }
+  .dashtrackingicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    align-self: center;
+  }
+  .dashtrackingtitle {
+    color: #b3b0b0;
+    align-self: center;
+  }
+  .dashinventorylink {
+    width: 99%;
+    height: 12%;
+  }
+  .dashinventoryicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    align-self: center;
+  }
+  .dashinventorytitle {
+    color: #b3b0b0;
+    align-self: center;
+  }
+  .dashfinanciallink {
+    width: 99%;
+    height: 12%;
+  }
+  .dashfinancialicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    align-self: center;
+    margin-top: 1%;
+  }
+  .dashfinancialtitle {
+    color: #b3b0b0;
+    align-self: center;
+  }
+  .usericon {
+    top: 1%;
+    left: 30%;
+    width: 50%;
+    height: auto;
+  }
+  .main {
+    top: 10%;
+    left: 15%;
+    right: auto;
+    width: 80%;
+    bottom: auto;
+    height: 84%;
+    position: absolute;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .leftcolumn {
+    width: 50%;
+    height: 90%;
+    align-self: flex-end;
+    padding-top: 5%;
+  }
+  .dasha {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .dashb {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .dashc {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .dashd {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .rightcolumn {
+    width: 50%;
+    height: 90%;
+    align-self: flex-end;
+    padding-top: 5%;
+  }
+  .dashe {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .dashf {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .dashg {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .dashh {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .text6 {
+    left: 1%;
+  }
+}
+@media(max-width: 767px) {
+  .container1 {
+    height: 100%;
+  }
+  .body {
+    height: 1002px;
+    position: relative;
+  }
+  .footer {
+    top: auto;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    bottom: 1%;
+    height: 5%;
+    position: absolute;
+    align-self: flex-end;
+    flex-direction: row;
+  }
+  .footerlogo {
+    top: auto;
+    left: 1%;
+    right: auto;
+    width: auto;
+    bottom: 0px;
+    height: 100%;
+    position: absolute;
+  }
+  .copyright {
+    top: auto;
+    right: 1%;
+    bottom: 30%;
+    margin: auto;
+    position: absolute;
+  }
+  .header {
+    top: auto;
+    left: auto;
+    right: auto;
+    width: 99%;
+    bottom: auto;
+    height: 10%;
+    position: absolute;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+  }
+  .logo {
+    top: auto;
+    right: 30%;
+    width: auto;
+    bottom: 0px;
+    height: 100%;
+    position: absolute;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+  .sidebar {
+    top: 0px;
+    left: 0px;
+    right: auto;
+    width: 15%;
+    bottom: auto;
+    height: 94%;
+    position: absolute;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+  }
+  .menu {
+    top: 11%;
+    left: auto;
+    right: 0px;
+    width: 100%;
+    bottom: auto;
+    height: 50%;
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .dashdashlink {
+    width: 99%;
+    height: 12%;
+    align-self: flex-start;
+    margin-top: 1%;
+  }
+  .dashdashicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    position: static;
+    align-self: center;
+  }
+  .dashdashtitle {
+    align-self: center;
+  }
+  .dashworkinglink {
+    width: 99%;
+    height: 12%;
+  }
+  .dashworkingicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    position: static;
+    align-self: center;
+  }
+  .dashworkingtitle {
+    align-self: center;
+  }
+  .dashformslink {
+    width: 99%;
+    height: 12%;
+  }
+  .dashformsicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    position: static;
+    align-self: center;
+  }
+  .dashformstitle {
+    align-self: center;
+  }
+  .dashmsgslink {
+    width: 99%;
+    height: 12%;
+  }
+  .dashmsgsicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    position: static;
+    align-self: center;
+  }
+  .dashmsgstitle {
+    align-self: center;
+  }
+  .dashpartnerslink {
+    width: 99%;
+    height: 12%;
+  }
+  .dashpartnersicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    position: static;
+    align-self: center;
+  }
+  .dashpartnerstitle {
+    align-self: center;
+  }
+  .dashtrackinglink {
+    width: 99%;
+    height: 12%;
+  }
+  .dashtrackingicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    position: static;
+    align-self: center;
+  }
+  .dashtrackingtitle {
+    align-self: center;
+  }
+  .dashinventorylink {
+    width: 99%;
+    height: 12%;
+  }
+  .dashinventoryicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    position: static;
+    align-self: center;
+  }
+  .dashinventorytitle {
+    align-self: center;
+  }
+  .dashfinanciallink {
+    width: 99%;
+    height: 12%;
+  }
+  .dashfinancialicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    position: static;
+    align-self: center;
+  }
+  .dashfinancialtitle {
+    align-self: center;
+  }
+  .usericon {
+    top: 1%;
+    left: 20%;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    align-self: center;
+  }
+  .main {
+    top: 10%;
+    left: 20%;
+    right: auto;
+    width: 80%;
+    bottom: auto;
+    height: 84%;
+    position: absolute;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .leftcolumn {
+    width: 50%;
+    height: 100%;
+  }
+  .dasha {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .dashb {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .dashc {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .dashd {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .rightcolumn {
+    width: 50%;
+    height: 100%;
+  }
+  .dashe {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .dashf {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .dashg {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .dashh {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+}
+@media(max-width: 479px) {
+  .body {
+    height: 1002px;
+    position: relative;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+  }
+  .footer {
+    width: 100%;
+    height: 5%;
+    position: relative;
+    align-self: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .footerlogo {
+    top: auto;
+    left: 1%;
+    right: auto;
+    width: auto;
+    bottom: 0px;
+    height: 100%;
+    position: absolute;
+  }
+  .copyright {
+    top: auto;
+    right: 1%;
+    bottom: 16px;
+    position: absolute;
+  }
+  .header {
+    top: auto;
+    left: auto;
+    right: auto;
+    width: 99%;
+    bottom: auto;
+    height: 10%;
+    margin: 0px;
+    position: absolute;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+  }
+  .logo {
+    top: auto;
+    right: 15%;
+    width: auto;
+    bottom: 0px;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+  }
+  .sidebar {
+    left: 0px;
+    width: 15%;
+    height: 94%;
+    position: absolute;
+    align-self: flex-start;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    margin-top: 0px;
+    margin-left: auto;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .menu {
+    top: 11%;
+    left: auto;
+    right: 0px;
+    width: 100%;
+    bottom: auto;
+    height: 50%;
+    position: absolute;
+    align-self: flex-start;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-color: var(--dl-color-gray-black);
+    border-style: double;
+    border-width: 1px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .dashdashlink {
+    width: 99%;
+    height: 12%;
+    align-self: flex-start;
+  }
+  .dashdashicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    position: static;
+    align-self: center;
+  }
+  .dashdashtitle {
+    color: #b3b0b0;
+    align-self: center;
+  }
+  .dashworkinglink {
+    width: 99%;
+    height: 12%;
+    align-self: center;
+  }
+  .dashworkingicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    position: static;
+    align-self: center;
+  }
+  .dashworkingtitle {
+    color: #b3b0b0;
+    align-self: center;
+  }
+  .dashformslink {
+    width: 99%;
+    height: 12%;
+    align-self: center;
+  }
+  .dashformsicon {
+    fill: #b3b0b0;
+    width: 30%;
+    height: auto;
+    position: static;
+    align-self: center;
+  }
+  .dashformstitle {
+    color: #b3b0b0;
+    align-self: center;
+  }
+  .dashmsgslink {
+    width: 99%;
+    height: 12%;
+  }
+  .dashmsgsicon {
+    fill: #b3b0b0;
+    width: 40%;
+    height: auto;
+    position: static;
+    align-self: center;
+  }
+  .dashmsgstitle {
+    color: #b3b0b0;
+    align-self: center;
+  }
+  .dashpartnerslink {
+    width: 99%;
+    height: 12%;
+  }
+  .dashpartnersicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    position: static;
+    align-self: center;
+  }
+  .dashpartnerstitle {
+    color: #b3b0b0;
+    align-self: center;
+  }
+  .dashtrackinglink {
+    width: 99%;
+    height: 12%;
+  }
+  .dashtrackingicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    position: static;
+    align-self: center;
+  }
+  .dashtrackingtitle {
+    color: #b3b0b0;
+    align-self: center;
+  }
+  .dashinventorylink {
+    width: 99%;
+    height: 12%;
+  }
+  .dashinventoryicon {
+    fill: #b3b0b0;
+    width: 40%;
+    height: auto;
+    position: static;
+    align-self: center;
+  }
+  .dashinventorytitle {
+    color: #b3b0b0;
+    align-self: center;
+  }
+  .dashfinanciallink {
+    width: 99%;
+    height: 12%;
+  }
+  .dashfinancialicon {
+    fill: #b3b0b0;
+    width: 35%;
+    height: auto;
+    position: static;
+    align-self: center;
+  }
+  .dashfinancialtitle {
+    color: #b3b0b0;
+    align-self: center;
+  }
+  .usericon {
+    width: 50%;
+    height: auto;
+    position: static;
+    align-self: center;
+    margin-top: 25%;
+  }
+  .main {
+    top: 10%;
+    left: 20%;
+    right: auto;
+    width: 80%;
+    bottom: auto;
+    height: 84%;
+    position: absolute;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .leftcolumn {
+    width: 50%;
+    height: 100%;
+  }
+  .dasha {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .dashb {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .dashc {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .dashd {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .rightcolumn {
+    width: 50%;
+    height: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .dashe {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .dashf {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .dashg {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+  .dashh {
+    width: 100%;
+    height: 25%;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+  }
+}

@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  height: 490px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.image {
+  top: var(--dl-space-space-tripleunit);
+  left: var(--dl-space-space-tripleunit);
+  width: 50px;
+  bottom: auto;
+  position: absolute;
+  object-fit: cover;
+}

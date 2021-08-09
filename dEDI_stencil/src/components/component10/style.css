@@ -1,0 +1,72 @@
+:host { 
+  display: contents; 
+}
+.container {
+  width: 98%;
+  height: 73px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.icon {
+  top: auto;
+  fill: #b3b0b0;
+  left: auto;
+  right: auto;
+  width: 20%;
+  bottom: auto;
+  position: absolute;
+  margin-top: 1%;
+}
+.dashboard {
+  top: 5%;
+  left: auto;
+  color: #b3b0b0;
+  right: auto;
+  bottom: auto;
+  position: absolute;
+  font-size: 120%;
+  align-self: center;
+  font-style: normal;
+  margin-top: auto;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+@media(max-width: 991px) {
+  .icon {
+    fill: #b3b0b0;
+    width: 5%;
+    height: auto;
+  }
+}
+@media(max-width: 767px) {
+  .icon {
+    fill: #b3b0b0;
+    width: 7%;
+    height: auto;
+  }
+}
+@media(max-width: 479px) {
+  .container {
+    height: 7%;
+  }
+  .icon {
+    fill: #b3b0b0;
+    width: 50%;
+    height: auto;
+  }
+  .dashboard {
+    top: auto;
+    font-size: 50%;
+    font-style: normal;
+    margin-top: 50%;
+    font-weight: 700;
+    letter-spacing: 100%;
+  }
+}

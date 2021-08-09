@@ -1,0 +1,96 @@
+:host { 
+  display: contents; 
+}
+.container {
+  width: 189px;
+  height: 328px;
+  display: flex;
+  align-self: flex-start;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-doubleunit);
+  padding-top: 2rem;
+  padding-left: 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.text {
+  color: rgba(18, 18, 18, 0.37);
+  font-size: 20px;
+  align-self: flex-start;
+  font-family: Fira Sans;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: underline;
+}
+.text1 {
+  color: rgba(18, 18, 18, 0.37);
+  font-size: 20px;
+  font-family: Fira Sans;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: underline;
+}
+.text2 {
+  color: rgba(18, 18, 18, 0.37);
+  font-size: 20px;
+  align-self: flex-start;
+  font-family: Fira Sans;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: underline;
+}
+.text3 {
+  color: rgba(18, 18, 18, 0.37);
+  font-size: 20px;
+  align-self: flex-start;
+  font-family: Fira Sans;
+  margin-left: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: underline;
+}
+.text4 {
+  color: rgba(18, 18, 18, 0.37);
+  font-size: 20px;
+  align-self: flex-start;
+  font-family: Fira Sans;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: underline;
+}
+.text5 {
+  color: rgba(18, 18, 18, 0.37);
+  font-size: 20px;
+  align-self: flex-start;
+  font-family: Fira Sans;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: underline;
+}
+.text6 {
+  color: rgba(18, 18, 18, 0.37);
+  font-size: 20px;
+  align-self: flex-start;
+  font-family: Fira Sans;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: underline;
+}
+.text7 {
+  color: rgba(18, 18, 18, 0.37);
+  font-size: 20px;
+  align-self: flex-start;
+  font-family: Fira Sans;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: underline;
+}
+.text8 {
+  color: rgba(18, 18, 18, 0.37);
+  font-size: 20px;
+  align-self: flex-start;
+  font-family: Fira Sans;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: underline;
+}

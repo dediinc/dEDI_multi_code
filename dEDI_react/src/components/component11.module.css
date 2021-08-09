@@ -1,0 +1,45 @@
+.container {
+  width: 98%;
+  height: 73px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+}
+.dashboard {
+  top: 5%;
+  left: auto;
+  color: #b3b0b0;
+  right: auto;
+  bottom: auto;
+  position: absolute;
+  font-size: 120%;
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  font-family: Noto Sans;
+  font-weight: 400;
+}
+@media(max-width: 479px) {
+  .container {
+    height: 7%;
+  }
+  .icon {
+    fill: #b3b0b0;
+    width: 60%;
+    height: auto;
+  }
+  .dashboard {
+    top: auto;
+    font-size: 50%;
+    font-style: normal;
+    margin-top: 60%;
+    font-weight: 700;
+    letter-spacing: 100%;
+  }
+}
